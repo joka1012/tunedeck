@@ -1,0 +1,36 @@
+.sidebar-left {
+  min-height: 100%;
+  border-right: 1px solid #FFFFFF1A;
+  max-width: 22.5vw;
+  background: black;
+}
+
+.sidebar-left ul li a {
+  display: block;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  padding: 14px; /* oder wie du es brauchst */
+  transition: background-color 0.2s ease;
+}
+
+.sidebar-left a:hover {
+  background-color: #FFFFFF26;
+}
+
+.sidebar-left img {
+  background-color: white;
+}
+
+.sidebar-left ul li {
+  position: relative;
+  list-style-type: none;
+  height: 50px;
+  width: 100%;
+  margin: 0.3rem auto;
+  line-height: 50%;
+}
+
+.menu-option {
+  padding: 14px 14px;
+}

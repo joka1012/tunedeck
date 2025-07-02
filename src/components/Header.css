@@ -1,0 +1,20 @@
+.navbar {
+  z-index: 1030;
+}
+
+.header-button {
+  color: white;
+  background: black;
+  border:none;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header-button:hover {
+  background: #FFFFFF26;
+}
+
+.border-unten {
+  border-bottom: 1px solid #FFFFFF26;
+}

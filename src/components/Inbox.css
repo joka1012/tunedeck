@@ -1,0 +1,40 @@
+.inbox-icon {
+    font-size: 150px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+.main {
+    padding: 40px 20px 30px 20px;
+    background-color: black;
+    width: 640px;
+    max-width: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+
+.frame {
+  background: #2F2F2F;
+  border-radius: 8px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.inbox-icon {
+  font-size: 150px;
+}
+
+.frame span {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: grey;  
+}

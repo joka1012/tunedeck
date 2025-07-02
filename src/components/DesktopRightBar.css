@@ -1,0 +1,7 @@
+.right-bar {
+    top: 0;
+  right: 0;  
+  width: 27.5vw;
+  min-height: 100%;
+  border-left: 1px solid #FFFFFF26;
+}

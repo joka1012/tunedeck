@@ -1,0 +1,60 @@
+.sett-main {
+    padding: 40px 20px 30px 20px;
+    background-color: black;
+    width: 640px;
+    max-width: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+
+.sett-frame {
+  background: #2F2F2F;
+  border-radius: 8px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: #F8F8F8;
+}
+
+.delete-button {
+    margin: 20px 10px;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    background: #E60000;
+    color: #F8F8F8;
+}
+
+.sett-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+    border-bottom: 1px solid #444;
+}
+
+.sett-label {
+    flex: 1;
+    font-weight: 600;
+    color: #F8F8F8;
+}
+
+.sett-value {
+    flex: 2;
+    text-align: right;
+    color: #CFCFCF;
+}
+
+@media (max-width: 480px) {
+  .sett-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sett-value {
+    text-align: left;
+    margin-top: 4px;
+  }
+}

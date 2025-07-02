@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .feed {
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+.feed {
+    padding: 14px 20px 0px 20px;
+    background-color: black;
+}

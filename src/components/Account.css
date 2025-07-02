@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  .account {
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+.account {
+    padding: 40px 20px 30px 20px;
+    background-color: black;
+    color: white;
+    width: 640px;
+    max-width: 100%;
+    display: flex;
+    border-bottom: 1px solid #FFFFFF1A;
+}
+
+.avatar-acc-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.acc_follower_btn {
+  padding: 14px;
+}
+
+.username {
+  font-size: 25px;
+  padding: 13px;
+}
+
+.bio {
+  padding: 14px;
+}
+
+.edit-profile {
+  background-color: #FFFFFF1A;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 8px;
+}
+
+.edit-profile:hover {
+  background-color: #FFFFFF26;
+}
+
+.acc-main {
+  background: black;
+  min-height: 100vh;
+}
